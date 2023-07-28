@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+
+}
+
+#main-title   {
+    color: rgb(18, 50, 147);
+    /* padding-right: 400px; */
+    text-align: center;
+    font-size: 45px;
+
+}
+
+#accessories-div {
+   display: grid;
+   grid-template-columns: repeat(3,250px);
+   grid-auto-rows: 400px;
+   justify-content: space-between;
+
+}
+
+.image-divs {
+    height: 300px;
+    width: 200px;
+    border: 2px solid white;
+}
+
+.photos {
+    color: rgb(18, 50, 147);
+}
